@@ -27,3 +27,22 @@ HELLO (Shift 3) → KHOOR
 1. Make sure Python 3 is installed.
 2. Download the `.py` file.
 3. Run the program using:
+4. Enter your message and shift value when prompted.
+---
+
+##  Security Analysis
+
+The Caesar Cipher is a substitution cipher with only 25 possible shift keys.  
+It is not secure against modern attacks because:
+
+- It can be broken using brute-force easily.
+- It is vulnerable to frequency analysis.
+- The key space is very small.
+
+However, it is useful for understanding basic cryptography concepts and modular arithmetic.
+---
+
+##  Author
+Sayeda Aliza Hashmi  
+Software Engineering Student  
+COMSATS University Islamabad
